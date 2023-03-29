@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+</head>
+<body>
+    <h1>Chapter # 7: Forms</h1>
+
+    <form action="http://www.example.com/login.php" method="GET">
+
+      <fieldset> 
+            <legend>Yours Details:</legend>     
+        <p>
+        Name: <input type="text" name="name" size="20" maxlength="35" required> <br> <br>
+        Email: <input type="text" name="mail" size="20" maxlength="40" required>
+       </p>
+    </fieldset>
+    <br>
+
+
+    <fieldset>
+        <legend>Your Review:</legend>
+
+       <p>
+        How did you hear about us?
+        <select name="browsers">
+            <option value="search engine"> Google </option>
+            <option value="search engine"> Yahoo </option>
+            <option value="search engine"> Wikipedia </option>
+        </select>
+         </p>
+        
+         <p>
+            Would you visit again? <br>
+            <input type="radio" name="visit" value="v">Yes
+            <input type="radio" name="visit" value="n">No
+            <input type="radio" name="visit" value="m">Maybe
+         </p>
+
+         <p>
+            Comments:
+        </p>
+            <textarea name="comments" rows="5" cols="35"> </textarea>
+           
+        <p>
+            <input type="checkbox" name="signup" value="Details"> sign me up for email updates
+        </p>
+
+        <p>
+            <input type="button" value="submit review">
+        </p>
+
+  
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
